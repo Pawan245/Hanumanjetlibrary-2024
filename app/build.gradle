@@ -4,12 +4,12 @@ plugins {
 
 android {
     namespace 'com.ram.androidhanumanjetlibrery'
-    compileSdk 34
+    compileSdk 35
 
     defaultConfig {
         applicationId "com.ram.androidhanumanjetlibrery"
         minSdk 21
-        targetSdk 34
+        targetSdk 35
         versionCode 2
         versionName "2.0"
 multiDexEnabled true
@@ -23,8 +23,8 @@ multiDexEnabled true
         }
     }
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
     }
 }
 
